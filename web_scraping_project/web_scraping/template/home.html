@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Tracker</title>
+</head>
+<body>
+    <h1>Hii there</h1>
+    <h2>This is a website to track the price of the desired product and notify when its in lowest price</h2>
+    <form action="{% url 'home' %}" method="POST">
+        {% csrf_token %}
+        <h3>Enter the Product link </h3>
+        <input type="text" name="link" placeholder="Enter the link here">
+        <h3>Enter the price to get notified</h3>
+        <input type="text" name="price" placeholder="Enter the price here">
+        <h3>Enter the email address to get notified</h3>
+        <input type="text" name="email" placeholder="Enter the email here">
+        <button name="form_submit">Submit</button>
+        <br></br>
+    </form>
+</body>
+</html>

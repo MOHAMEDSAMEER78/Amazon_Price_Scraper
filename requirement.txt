@@ -1,0 +1,6 @@
+Python
+Django
+pip install requests 
+pip install beautifulsoup4
+pip install reportlab
+pip install xhtml2pdf
