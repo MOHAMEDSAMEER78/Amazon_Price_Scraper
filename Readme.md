@@ -1,6 +1,3 @@
-Use MongoDB cloud cluster in application.properties
-create MongoDB cloud cluster from mongodb Atlas website
-
 create virtual environment
     python3 -m venv projenv 
 
